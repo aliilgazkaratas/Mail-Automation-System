@@ -14,7 +14,7 @@
 import pandas as pd
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-data = pd.read_excel (r'C:\Users\ilgaz\OneDrive\Masaüstü\Prosense Marketing Mail Automation\marketingautomation.xlsx')
+data = pd.read_excel (r'C:\Users\ilgaz\OneDrive\Masaüstü\business privacy Marketing Mail Automation\marketingautomation.xlsx')
 Mails = data['Mails'].tolist()
 Names = data['Name'].tolist()
 Subjects = data["Subjects"].tolist()
@@ -36,10 +36,10 @@ import random
 import codecs
 import ssl
  
-file1 = codecs.open(r"C:\Users\ilgaz\OneDrive\Masaüstü\Prosense Marketing Mail Automation\Drafts1.html", "r", "utf-8")
-file2= codecs.open(r"C:\Users\ilgaz\OneDrive\Masaüstü\Prosense Marketing Mail Automation\Drafts2.html", "r", "utf-8")
-file3 = codecs.open(r"C:\Users\ilgaz\OneDrive\Masaüstü\Prosense Marketing Mail Automation\Drafts3.html", "r", "utf-8")
-file4 = codecs.open(r"C:\Users\ilgaz\OneDrive\Masaüstü\Prosense Marketing Mail Automation\Drafts4.html", "r", "utf-8")
+file1 = codecs.open(r"C:\Users\ilgaz\OneDrive\Masaüstü\business privacy Marketing Mail Automation\Drafts1.html", "r", "utf-8")
+file2= codecs.open(r"C:\Users\ilgaz\OneDrive\Masaüstü\business privacy Marketing Mail Automation\Drafts2.html", "r", "utf-8")
+file3 = codecs.open(r"C:\Users\ilgaz\OneDrive\Masaüstü\business privacy Marketing Mail Automation\Drafts3.html", "r", "utf-8")
+file4 = codecs.open(r"C:\Users\ilgaz\OneDrive\Masaüstü\business privacy Marketing Mail Automation\Drafts4.html", "r", "utf-8")
 list_of_drafts=[]
 list_of_drafts.append(file1.read())
 list_of_drafts.append(file2.read())
